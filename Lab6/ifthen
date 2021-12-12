@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo ">>"
+
+read var
+
+if [ ! -eq var ]
+	then
+		echo "You entered $var"
+else
+	echo "Where is your input?"
+fi
